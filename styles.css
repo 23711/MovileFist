@@ -1,0 +1,28 @@
+/*
+1. Position
+2. Box Model
+3. Typography
+4. Visuals
+5. others
+*/
+:root{
+    /*Colors*/
+    --bitcoin-color: #F7931A;
+    --soft1-color: #FFE9D5;
+    --secundary-color: #1A9AF7;
+    --soft2-color: #E7F5FF;
+    --warm-dark: #201E1C;
+    --black: #282623;
+    --grey: #BABABA;
+    --off-light: #FAF8F7;
+    --just-white: #fff;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
